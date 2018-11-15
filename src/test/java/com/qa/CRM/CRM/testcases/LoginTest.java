@@ -30,6 +30,11 @@ public class LoginTest extends BaseTest  {
 		
 	}
 	
+	@Test(priority=4)
+	public void  test() {
+		System.out.println("This is test methode added");
+		
+	}
 	
 	@Test(priority=2,enabled=true)
 	public void verifyTitleTest() {

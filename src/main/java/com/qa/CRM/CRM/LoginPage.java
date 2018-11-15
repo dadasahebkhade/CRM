@@ -32,7 +32,8 @@ public class LoginPage extends BaseTest {
 	@FindBy(xpath="//img[contains(@alt,'free crm logo')]")
 	WebElement logo;
 	
-	
+	@FindBy(xpath="//img[contains(@alt,'free crm logo')]")
+	WebElement log;
 	
 	
 	
